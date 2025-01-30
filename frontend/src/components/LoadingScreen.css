@@ -1,0 +1,114 @@
+/* src/components/LoadingScreen.css */
+
+.start-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  background-color: #00ffea;
+  color: #004e92;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.start-button:hover {
+  background-color: #00ccbe;
+}
+
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.eagle-container {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.eagle {
+  position: absolute;
+  bottom: -200px;
+  left: -200px;
+  width: 400px;
+  animation: flyAcross 3s linear forwards;
+}
+
+@keyframes flyAcross {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(calc(100vw + 200px), calc(-100vh - 200px));
+  }
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+.clubtag,
+.tags {
+  margin: 10px;
+  color: #00ffea;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.clubtag {
+  font-size: 2.5rem;
+}
+
+.tags {
+  font-size: 2rem;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust as needed */
+  z-index: 10;
+}
+
+.xlogo {
+  width: 250px; /* Adjust the size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 100%;
+  animation: fadeInLogo 2s ease forwards;
+}
+
+@keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); /* Optional scale effect */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Return to normal size */
+  }
+}
+
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

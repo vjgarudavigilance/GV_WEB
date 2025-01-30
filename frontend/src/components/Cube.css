@@ -1,0 +1,54 @@
+/* src/components/Cube.css */
+
+/* Cube Styles */
+.cube {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    transform: rotateX(45deg) rotateY(45deg);
+    animation: rotate 15s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.face {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgba(0, 255, 234, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.face.face1 {
+    transform: rotateY(0deg) translateZ(130px);
+}
+
+.face.face2 {
+    transform: rotateY(90deg) translateZ(130px);
+}
+
+.face.face3 {
+    transform: rotateY(180deg) translateZ(130px);
+}
+
+.face.face4 {
+    transform: rotateY(-90deg) translateZ(130px);
+}
+
+.face.face5 {
+    transform: rotateX(90deg) translateZ(130px);
+}
+
+.face.face6 {
+    transform: rotateX(-90deg) translateZ(130px);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}

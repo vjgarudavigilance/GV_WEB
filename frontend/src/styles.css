@@ -1,0 +1,157 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Main Container for Content and Cube */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 100vh; /* Ensure enough height to display content */
+}
+
+/* Cube Container */
+.cube-container {
+  width: 300px;
+  height: 300px;
+}
+
+/* Cube Styles */
+.cube {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  transform: rotateX(45deg) rotateY(45deg);
+  animation: rotate 10s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.face {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  border: 2px solid rgba(0, 255, 234, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.face.face1 {
+  transform: rotateY(0deg) translateZ(125px);
+  background-image: url('../images/amulya_akka.jpg'); /* Update the path accordingly */
+}
+
+.face.face2 {
+  transform: rotateY(90deg) translateZ(125px);
+  background-image: url('../images/abhishek_anna.jpg'); /* Update the path accordingly */
+}
+
+.face.face3 {
+  transform: rotateY(180deg) translateZ(125px);
+  background-image: url('../images/hari_annayya.jpg'); /* Update the path accordingly */
+}
+
+.face.face4 {
+  transform: rotateY(-90deg) translateZ(125px);
+  background-image: url('../images/kalyan_anna.jpg'); /* Update the path accordingly */
+}
+
+.face.face5 {
+  transform: rotateX(90deg) translateZ(125px);
+  background-image: url('../images/meher_anna.jpg'); /* Update the path accordingly */
+}
+
+.face.face6 {
+  transform: rotateX(-90deg) translateZ(125px);
+  background-image: url('../images/nandini_akka.jpg'); /* Update the path accordingly */
+}
+
+@keyframes rotate {
+  from {
+      transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+      transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+/* Content Container */
+.content-container {
+  margin-left: 50px; /* Space between cube and content */
+}
+
+/* Club Name */
+.club-name {
+  font-size: 3.5rem;
+  color: #00ffea;
+  margin-top: 20px;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* Description */
+.description {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Social Media Section */
+.social-media-container {
+  margin-top: 25px;
+}
+
+.follow-us {
+  font-size: 1rem;
+  color: #00ffea;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: rgba(0, 255, 234, 0.5);
+  background-color: #333;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .main-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      align-items: center;
+  }
+
+  .cube-container {
+      margin-bottom: 20px; /* Space below cube */
+  }
+}

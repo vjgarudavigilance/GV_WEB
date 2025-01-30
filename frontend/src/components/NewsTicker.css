@@ -1,0 +1,134 @@
+/* General Styles for News Ticker */
+.news-ticker {
+  display: flex;
+  align-items: center;
+  width: 120vw; /* Adjusted to fit mobile view */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin-top: 105px;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  left: 30px;
+  padding: 5px 0;
+  z-index: 1000;
+}
+
+.events-box {
+  background-color: rgba(70, 161, 186, 0.8);
+  color: white;
+  padding: 15px;
+  margin-right: 25px;
+  margin-left: 30px;
+  border-radius: 5px;
+  font-size: 0.8rem; /* Adjusted for smaller screens */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.ticker-wrap {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: tickerMove 20s linear infinite; /* Adjusted speed for better readability */
+}
+
+@keyframes tickerMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker-content p {
+  display: inline-block;
+  font-size: 1rem; /* Adjusted for mobile screens */
+  margin: 0 30px; /* Reduced margin for better spacing */
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.ticker-content p:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.ticker-content button {
+  padding: 6px 12px;
+  margin-left: 5px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Adjusted button font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.ticker-content button:hover {
+  background-color: #ff4500;
+  transform: scale(1.1);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ticker-content button:active {
+  transform: scale(0.98);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .news-ticker {
+    margin-top: 80px;
+    padding: 8px 0;
+  }
+
+  .events-box {
+    padding: 6px;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 0.9rem; /* Smaller font for tablets */
+  }
+
+  .ticker-content p {
+    font-size: 0.9rem;
+    margin: 0 20px;
+  }
+
+  .ticker-content button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-ticker {
+    margin-top: 60px;
+    padding: 5px 0;
+  }
+
+  .events-box {
+    padding: 4px;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 0.8rem; /* Smaller font for mobile screens */
+  }
+
+  .ticker-content p {
+    font-size: 0.8rem;
+    margin: 0 10px;
+  }
+
+  .ticker-content button {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+}

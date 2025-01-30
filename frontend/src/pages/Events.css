@@ -1,0 +1,418 @@
+/* Container Styles */
+/* CSS for Background Video */
+.background-video {
+  position: fixed; /* Ensures the video stays fixed as a background */
+  top: 0;
+  left: 0;
+  /* margin-top: 100px; */
+  width: 100vw; /* Cover the entire width of the viewport */
+  height: 100vh; /* Cover the entire height of the viewport */
+  object-fit: cover; /* Ensures the video covers the screen without distortion */
+  z-index: -1; /* Places the video behind all other elements */
+  filter: brightness(0.6); /* Optional: Dims the video for better text visibility */
+}
+
+/* Optional: To style the overlay content */
+.content-overlay {
+  position: relative;
+  z-index: 1; /* Ensures content is above the video */
+  color: white; /* Text color for contrast */
+  text-align: center; /* Centers the content */
+  padding: 2rem; /* Adds padding around content */
+}
+
+.events-container {
+  padding: 100px;
+  margin-top: 10px; /* Center the container horizontally */
+  /* background-image: url('../assets/bg8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+  border-radius: 0px; /* Rounded corners for a softer look */
+   /* Set a maximum width for the container */
+  width: 100%; /* Adjust width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+   /* Add a light border */
+}
+h1,h2{
+  color: white;
+  padding: 10px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+/* Section Styles */
+.latest-events-section,
+.previous-events-section {
+  margin-bottom: 40px;
+  padding: 20px 0; /* Add padding for better spacing */
+}
+
+/* Carousel Styles */
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  /* background-color: #fff; */
+  padding: 15px; /* Add padding inside carousel */
+}
+
+.events-carousel {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Event Card Styles */
+.event-card {
+ 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(100% / 3 - 20px);
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #748d728e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.event-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #ffffff;
+  text-align: center; /* Ensure title text is centered */
+}
+
+.event-description {
+  padding: 0 10px;
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+/* Navigation Styles */
+.carousel-navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel-navigation button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #797f86;
+  color: rgb(240, 229, 229);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.carousel-navigation button:hover {
+  background-color: #3e444b;
+}
+
+.carousel-navigation button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* Year Buttons Styles */
+.year-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.year-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.year-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.year-buttons button.active {
+  background-color: #2b5c92;
+  color: white;
+}
+
+.upcoming-events-section{
+  padding-bottom: 10px;
+}
+/* Event Details Modal */
+.event-details-modal {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-40%);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* padding: 10px; */
+  z-index: 1000;
+  width: 60%;
+  max-width: 800px;
+  overflow-y: auto;
+  max-height: 80vh;
+  
+}
+.event-short-description {
+  padding: 0 10px;
+  color: #000000;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.back-arrow {
+  position:relative ;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.event-details-content {
+  text-align: center;
+}
+
+.event-details-title {
+  margin: 20px 0;
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+}
+
+.event-details-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.event-description {
+  margin: 15px 0;
+  font-size: 1.1em;
+  color: #555;
+  text-align: justify;
+}
+
+.event-details-photos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100px;
+}
+
+.event-photo {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+/* Add this CSS */
+.blur-background {
+  filter: blur(5px);
+}
+.register-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+/* Back Arrow Styles */
+
+/* Animation for modal fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.additional-photos {
+  margin-top: 20px;
+}
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensures exactly 3 photos per row */
+  gap: 15px; /* Adds space between photos */
+}
+
+.additional-photo {
+  width: 100%; /* Ensures the image fills the grid cell */
+  aspect-ratio: 16 / 9; /* Maintains a consistent aspect ratio for all images */
+  object-fit: cover; /* Crops images to fit perfectly into their container */
+  border-radius: 5px; /* Optional: adds rounded corners for aesthetic purposes */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+.no-events-message {
+  color: #ffffff; /* Red color for emphasis */
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold; /* Make it bold */
+  text-align: center; /* Center align the text */
+  margin-top: 20px; /* Add some spacing */
+  animation: fadeIn 0.5s ease-in-out; /* Optional fade-in effect */
+}
+
+/* Optional: Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .events-container {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .events-carousel {
+    flex-direction: column; /* Stack items vertically on mobile */
+    gap: 15px;
+  }
+
+  .event-card {
+    width: 100%; /* Ensure cards take full width on mobile */
+  }
+
+  .carousel-navigation button,
+  .year-buttons button {
+    padding: 8px 15px; /* Adjust button padding */
+    font-size: 14px; /* Reduce font size for buttons */
+  }
+
+  .event-details-modal {
+    width: 90%; /* Adjust modal width for smaller screens */
+    padding: 20px; /* Adjust modal padding */
+  }
+
+  .event-details-image {
+    height: auto; /* Ensure images fit well */
+  }
+
+  .photos-grid {
+    grid-template-columns: repeat(2, 1fr); /* Show 2 photos per row */
+  }
+
+  h1, h2 {
+    font-size: 24px; /* Reduce font size for headings */
+  }
+
+  .register-button {
+    font-size: 14px; /* Adjust button font size */
+    padding: 8px 15px; /* Adjust padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .event-description {
+    font-size: 0.8em; /* Further reduce text size */
+  }
+
+  .event-details-title {
+    font-size: 1.5em; /* Smaller modal titles on very small screens */
+  }
+
+  .photos-grid {
+    grid-template-columns: 1fr; /* Stack photos vertically */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .event-details-modal {
+    width: 90%; /* Take up more width on smaller screens */
+    padding: 15px;
+    max-height: 75vh; /* Slightly reduce max height */
+  }
+
+  .event-details-title {
+    font-size: 1.5em; /* Reduce title font size */
+  }
+
+  .photos-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 photos per row for tablets */
+  }
+
+  .event-description {
+    font-size: 1em; /* Adjust text size for readability */
+  }
+
+  .additional-photo {
+    aspect-ratio: 4 / 3; /* Change aspect ratio for better fit */
+  }
+}
+
+@media (max-width: 480px) {
+  .event-details-modal {
+    width: 95%; /* Full width for very small devices */
+    padding: 10px;
+    max-height: 80vh;
+  }
+
+  .event-details-title {
+    font-size: 1.2em;
+  }
+
+  .photos-grid {
+    grid-template-columns: 1fr; /* Stack photos vertically */
+  }
+
+  .event-description {
+    font-size: 0.9em; /* Further reduce text size */
+  }
+
+  .additional-photo {
+    aspect-ratio: 1 / 1; /* Square photos for mobile */
+  }
+}

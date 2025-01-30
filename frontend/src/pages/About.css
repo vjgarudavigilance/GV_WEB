@@ -1,0 +1,178 @@
+.about-us {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px; /* Adjusted padding for better responsiveness */
+    box-sizing: border-box;
+}
+
+/* Fullscreen Video Background */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Overlay for Better Readability */
+.about-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Typography */
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Stats Section */
+.stats-section {
+    margin-bottom: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 1rem;
+}
+
+/* Section Styling */
+.section {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrow {
+    float: right;
+}
+
+.content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.section.open .content {
+    display: block;
+    opacity: 1;
+}
+
+/* 🛠 RESPONSIVE DESIGN 🛠 */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .main-heading {
+        font-size: 2rem;
+    }
+    .tagline {
+        font-size: 1.3rem;
+    }
+    .stats {
+        gap: 15px;
+    }
+    .stat {
+        width: 130px;
+        padding: 12px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .about-us {
+        padding: 60px 15px;
+    }
+    .main-heading {
+        font-size: 1.8rem;
+    }
+    .tagline {
+        font-size: 1.2rem;
+    }
+    .stats {
+        flex-direction: column;
+        align-items: center;
+    }
+    .stat {
+        width: 100%;
+        max-width: 200px;
+    }
+    .section {
+        padding: 10px;
+    }
+    .content-wrapper {
+        width: 100%;
+    }
+}
+
+/* Small Mobile (Extra Small Screens) */
+@media (max-width: 480px) {
+    .main-heading {
+        font-size: 1.5rem;
+    }
+    .tagline {
+        font-size: 1rem;
+    }
+    .stat {
+        width: 100%;
+        max-width: 180px;
+        padding: 10px;
+    }
+    .about-us {
+        padding: 50px 10px;
+    }
+    .content-wrapper {
+        padding: 10px;
+    }
+}

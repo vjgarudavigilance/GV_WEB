@@ -1,0 +1,321 @@
+{
+  "latestEvents": [
+    {
+      "id": 1,
+      "title": "Red Teaming",
+      "date":"2024-06-10",
+      "hostedBy": "Sai Nikhil, Abhishek",
+      "location": "Auditorium",
+      "shortDescription" : "Techno Vista fest",
+      "description": " The “Red Teaming” event, held during the Techno Vista fest, was an engaging competition that featured questions related to cybersecurity. Participants were challenged to demonstrate their knowledge and problem-solving skills in various cyber topics, fostering a competitive yet educational atmosphere. This interactive format not only encouraged learning about essential cybersecurity concepts but also enhanced participants’ critical thinking and teamwork abilities, making it a valuable experience for all involved.",
+      "photo": "/images/red teaming/1.jpg",
+      "additionalPhotos": [
+        "/images/red teaming/2.jpg",
+        "/images/red teaming/3.jpg",
+        "/images/red teaming/4.jpg",
+        "/images/red teaming/5.jpg",
+        "/images/red teaming/6.jpg",
+        "/images/red teaming/7.jpg",
+        "/images/red teaming/8.jpg",
+        "/images/red teaming/10.jpg",
+        "/images/red teaming/11.jpg",
+        "/images/red teaming/14.jpg"
+      ]
+    }
+  ],
+  "upcomingEvents": [
+   
+  ],
+  "eventsByYear": {
+    "2024":[
+    {
+      "id": 2,
+      "title": "Cyber Hunt",
+      "date": "2024-06-11",
+      "hostedBy": "Saranava, Satish, Prathamesh",
+      "location": "Campus",
+      "shortDescription" : "Techno Vista fest",
+      "description": " The “Cyber Hunt”, conducted during the Techno Vista fest, was an innovative treasure hunt that focused on the field of cybersecurity. Participants engaged in a series of challenges and puzzles that tested their knowledge and skills related to cyber concepts. This interactive format made learning about cybersecurity fun and engaging, encouraging teamwork and critical thinking while fostering a deeper understanding of essential cyber principles in a competitive environment.",
+      "photo": "/images/cyber hunt/1.jpg",
+      "additionalPhotos": [
+        "/images/cyber hunt/2.jpg",
+        "/images/cyber hunt/3.jpg",
+        "/images/cyber hunt/4.jpg",
+        "/images/cyber hunt/5.jpg",
+        "/images/cyber hunt/6.jpg",
+        "/images/cyber hunt/7.jpg",
+        "/images/cyber hunt/8.jpg",
+        "/images/cyber hunt/9.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Game of Threats",
+      "date": "2024-06-12",
+      "hostedBy": "Nandini, Benz",
+      "location": "Auditorium",
+      "shortDescription" : "An engaging quiz",
+      "description": "The “Game of Threats” event, was an engaging quiz focused on cybersecurity. Participants were challenged to answer a series of cyber-related questions within a limited time, which added an element of excitement and urgency. This format not only created a sense of competition but also made learning about cybersecurity more enjoyable and accessible, helping participants gain knowledge while keeping them engaged and motivated to learn.",
+      "photo": "/images/game of/1.jpg",
+      "additionalPhotos": [
+        "/images/game of/1.jpg",
+        "/images/game of/2.jpg",
+        "/images/game of/3.jpg",
+        "/images/game of/4.jpg",
+        "/images/game of/5.jpg",
+        "/images/game of/6.jpg",
+        "/images/game of/7.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Hackathon",
+      "date": "2024-06-12",
+      "hostedBy": "Subramanyam, Raghava",
+      "location": "Campus",
+      "shortDescription" : "solve specific problem statements ",
+      "description": " The hackathon provided participants with a valuable experience by challenging them to solve specific problem statements within a limited time. This hands-on approach allowed students to learn new skills and concepts while fostering a sense of competition and collaboration. The event created an atmosphere that encouraged critical thinking and problem-solving, making it an excellent opportunity for students to grow both intellectually and technically.",
+      "photo": "/images/hackathon/1.jpeg",
+      "additionalPhotos": [
+        "/images/hackathon/1.jpeg",
+        "/images/hackathon/2.jpg",
+        "/images/hackathon/3.jpg",
+        "/images/hackathon/4.jpg",
+        "/images/hackathon/5.jpg",
+        "/images/hackathon/6.jpg",
+        "/images/hackathon/7.jpg",
+        "/images/hackathon/8.jpg",
+        "/images/hackathon/9.jpg",
+        "/images/hackathon/10.jpg",
+        "/images/hackathon/11.jpg",
+        "/images/hackathon/12.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Tech Elocution",
+      "date": "2023-06-10",
+      "hostedBy": "Amulya, Mehernadh ",
+      "location": "Auditorium",
+      "shortDescription" : "The Tech Elocution event",
+      "description": " The Tech Elocution event, provided participants with a platform to gain and share knowledge in the field of cybersecurity. The event encouraged individuals to speak on various cyber topics for a few minutes, sparking interest in the subject. It was an excellent opportunity for participants to familiarize themselves with important cyber terms and concepts, ultimately promoting awareness and enhancing their understanding of cybersecurity.",
+      "photo": "/images/tech/1.jpg",
+      "additionalPhotos": [
+        "/images/tech/1.jpg",
+        "/images/tech/2.jpg",
+        "/images/tech/3.jpg",
+        "/images/tech/4.jpg",
+        "/images/tech/5.jpg",
+        "/images/tech/6.jpg",
+        "/images/tech/7.jpg",
+        "/images/tech/8.jpg",
+        "/images/tech/9.jpg",
+        "/images/tech/10.jpg",
+        "/images/tech/11.jpg",
+        "/images/tech/12.jpg",
+        "/images/tech/13.jpg",
+        "/images/tech/14.jpg",
+        "/images/tech/15.jpg"
+
+      ]
+    }
+    ],
+    "2023": [
+      {
+        "id": 5,
+        "title": "Valorant",
+        "date": "2023-12-7",
+        "hostedBy": "Kalyan and Sai Nikhil ",
+        "location": "B-Block seminar hall",
+        "shortDescription":"Valorant game challenge",
+        "description": "Organized a series of Valorant tournaments. The events included the Convergence tournament on December 2nd, the 2K23R Convergence on December 14th and 15th, and the Department Tournament on December 7th. These competitions offered players a chance to demonstrate their tactical skills and teamwork in Valorant, while also promoting a vibrant community atmosphere and engaging participants in friendly, competitive gameplay.",
+        "photo": "/images/valorant/1.jpeg",
+        "additionalPhotos": [
+          "/images/valorant/2.jpeg",
+          "/images/valorant/3.jpeg",
+          "/images/valorant/4.jpeg",
+          "/images/valorant/5.jpeg",
+          "/images/valorant/6.jpeg",
+          "/images/valorant/7.jpeg",
+          "/images/valorant/8.jpeg",
+          "/images/valorant/9.jpeg",
+          "/images/valorant/10.jpeg"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Warzone",
+        "date": "2023-05-20",
+        "hostedBy": "Yathin and Koushik ",
+        "location": "Main Auditorium",
+        "shortDescription":"CTF Event",
+        "description": "The event conducted is a Capture the Flag (CTF) called Warzone. This interactive event was designed to engage participants in a dynamic environment where they could apply their cybersecurity knowledge in simulated scenarios. The event aimed to enhance understanding of security principles through hands-on experience, challenging players to address various cybersecurity threats and vulnerabilities in a practical and engaging manner.",
+        "photo": "/images/warzone/7.jpg",
+        "additionalPhotos": [
+          "/images/warzone/1.jpg",
+          "/images/warzone/2.jpg",
+          "/images/warzone/3.jpg",
+          "/images/warzone/4.jpg",
+          "/images/warzone/5.jpg",
+          "/images/warzone/6.jpg",
+          "/images/warzone/7.jpg",
+          "/images/warzone/8.jpg",
+          "/images/warzone/9.jpg",
+          "/images/warzone/10.jpg",
+          "/images/warzone/11.jpg",
+          "/images/warzone/12.jpg"
+        ]
+      },
+      {
+        "id": 51,
+        "title": "Convegence CTF",
+        "date": "2023-12-14 to 2023-12-16",
+        "hostedBy": "Shahriyaar",
+        "location": "B-Block seminar hall",
+        "shortDescription":"THE CTF",
+        "description": "This cybersecurity competition featured a series of challenges designed to test participants' skills in areas such as penetration testing, cryptography, and network security. The event provided a platform for individuals to apply their cybersecurity knowledge in practical scenarios, promoting both learning and collaboration within the field.",
+        "photo": "/images/convergence/3.jpg",
+        "additionalPhotos": [
+          "/images/convergence/1.jpg",
+          "/images/convergence/2.jpg",
+          "/images/convergence/3.jpg",
+          "/images/convergence/4.jpeg",
+          "/images/convergence/5.jpeg",
+          "/images/convergence/6.jpeg",
+          "/images/convergence/7.jpeg",
+          "/images/convergence/8.jpeg",
+          "/images/convergence/9.jpeg",
+          "/images/convergence/10.jpeg",
+          "/images/convergence/11.jpeg",
+          "/images/convergence/12.jpeg"
+        ]
+      },
+      {
+        "id": 52,
+        "title": "Work Shop on cybersecurity",
+        "date": "2023-12-14",
+        "hostedBy": "Mehernadh",
+        "location": "B-Block seminar hall",
+        "shortDescription":"The session focused on fundamental cybersecurity concepts",
+        "description": "The session focused on fundamental cybersecurity concepts, practical strategies for protecting against cyber threats, and the latest trends in the field. The session provided valuable insights into safeguarding personal and institutional information, equipping participants with the knowledge to enhance their digital security. The workshop aimed to foster a deeper understanding of cybersecurity and empower attendees to effectively address and mitigate potential risks.",
+        "photo": "/images/workshop/1.jpeg",
+        "additionalPhotos": [
+          "/images/workshop/1.jpeg",
+          "/images/workshop/2.jpeg",
+          "/images/workshop/3.jpeg",
+          "/images/workshop/4.jpeg",
+          "/images/workshop/5.jpeg",
+          "/images/workshop/6.jpeg",
+          "/images/workshop/7.jpeg"
+        ]
+      },
+      {
+        "id": 53,
+        "title": "Cyber Awareness",
+        "date": "2023-10-10 to 2023-10-13",
+        "hostedBy": "Abhishek, Nandini",
+        "location": "B-Block seminar hall",
+        "shortDescription":" This was a 3-day cyber awareness event ",
+        "description": " This was a 3-day cyber awareness event aimed to provide crucial information about cybersecurity. This informative session equipped participants with essential knowledge to recognize and protect themselves from various cyber threats. Through discussions and practical examples, attendees learned about safe online practices, the importance of strong passwords, and how to identify potential scams. The event was instrumental in raising awareness and fostering a proactive approach to cybersecurity among individuals in the community.",
+        "photo": "/images/common_image.png",
+        "additionalPhotos": [
+          "/images/common_image.png",
+          "/images/common_image.png"
+        ]
+      },
+      {
+        "id": 54,
+        "title": "Cloud Security for Cyber Warriors",
+        "date": "2023-03-23",
+        "hostedBy": "Satish, Nikhil, Vasanth, and Mehernadh ",
+        "location": "B-Block seminar hall",
+        "shortDescription":"Cloud Security for Cyber Warriors",
+        "description":"The “Cloud Security for Cyber Warriors” session, offered participants valuable insights into the critical area of cloud security. Designed for students interested in cybersecurity, the session covered essential concepts and best practices for securing cloud environments. By exploring real-world scenarios and challenges, attendees gained a deeper understanding of cloud security measures, empowering them with the knowledge needed to navigate the complexities of modern cybersecurity effectively.",
+        "photo": "/images/cloudsecurity/11.jpg",
+        "additionalPhotos": [
+          "/images/cloudsecurity/1.jpg",
+          "/images/cloudsecurity/2.jpg",
+          "/images/cloudsecurity/3.jpg",
+          "/images/cloudsecurity/4.jpg",
+          "/images/cloudsecurity/5.jpg",
+          "/images/cloudsecurity/6.jpg",
+          "/images/cloudsecurity/7.jpg",
+          "/images/cloudsecurity/8.jpg",
+          "/images/cloudsecurity/9.jpg",
+          "/images/cloudsecurity/10.jpg",
+          "/images/cloudsecurity/11.jpg",
+          "/images/cloudsecurity/12.jpg"
+        ]
+      },
+      {
+        "id": 55,
+        "title": "Cyber Insights",
+        "date": "2023-03-13",
+        "hostedBy": "Raghava & batch",
+        "location": "B-Block seminar hall",
+        "shortDescription":"The Cyber Insights magazine",
+        "description":"The Cyber Insights magazine, that provides a comprehensive overview of all the events conducted by the Garuda Vigilance club. It includes detailed information about the various activities and initiatives undertaken in the past, offering readers a thorough understanding of the club's efforts in promoting cybersecurity awareness and education. The magazine serves as a valuable resource for those interested in the club's ongoing contributions to the field.",
+        "photo": "/images/cyberinsight/1.jpeg",
+        "additionalPhotos": [
+          "/images/cyberinsight/1.jpeg",
+          "/images/cyberinsight/2.jpeg",
+          "/images/cyberinsight/3.jpeg",
+          "/images/cyberinsight/4.jpeg",
+          "/images/cyberinsight/5.jpeg"
+        ]
+      },
+      {
+        "id": 56,
+        "title": "Two-day Cyber Workshop",
+        "date": "2023-05-26 & 2023-05-27",
+        "hostedBy": "Prashanthi Mam",
+        "location": "B-Block seminar hall",
+        "shortDescription":" A two-day cyber workshop",
+        "description":" A two-day cyber workshop, provided valuable insights into various cybersecurity topics. Participants gained practical knowledge about protecting themselves from daily cyber threats, making it highly beneficial for everyone. The workshop emphasized the importance of cybersecurity in everyday life, helping to raise awareness and equip individuals with the tools and knowledge to stay safe in the digital world, ultimately fostering a more secure and informed society.",
+        "photo": "/images/Two day cyber/2.jpeg",
+        "additionalPhotos": [
+          "/images/Two day cyber/1.jpg",
+          "/images/Two day cyber/2.jpeg",
+          "/images/Two day cyber/3.jpeg",
+          "/images/Two day cyber/4.jpeg",
+          "/images/Two day cyber/5.jpeg",
+          "/images/Two day cyber/6.jpeg"
+        ]
+      },
+      {
+        "id": 57,
+        "title": "CTF intramurals",
+        "date": "2023-12-11",
+        "hostedBy": "Sai Nikhil, Abhishek, Satish",
+        "location": "B-Block seminar hall",
+        "shortDescription":" The CTF intramurals event",
+        "description":"  The CTF intramurals event, provided participants with valuable insights into the challenges faced in Capture the Flag competitions. It offered a hands-on experience, allowing participants to better understand problem-solving strategies and enhance their knowledge of cybersecurity. The event helped improve their ability to approach complex problems effectively, fostering both technical skills and critical thinking, ultimately contributing to their growth in the field of cybersecurity.",
+        "photo": "/images/common_image.png",
+        "additionalPhotos": [
+          "/images/common_image.png",
+          "/images/common_image.png"
+        ]
+      }
+    ],
+    "2022": [
+      {
+        "id": 7,
+        "title": "VJ School Awareness",
+        "date": "2022-11-14",
+        "hostedBy": " Mehernadh",
+        "location": "",
+        "shortDescription":"Cybersecurity awareness session focusing on protecting personal and institutional information.",
+        "description": "VJGV hosted a security awareness session in VJ school led by Mehernadh. The event focused on fundamental cybersecurity principles, emphasizing the importance of protecting personal and institutional information. The club members provided practical advice on safeguarding against cyber threats and highlighted current cybersecurity trends. The session aimed to raise awareness about potential vulnerabilities and equip participants with the knowledge to enhance their digital safety, fostering a secure environment both online and offline.",
+        "photo": "/images/vj school/6.jpeg",
+        "additionalPhotos": [
+          "/images/vj school/1.jpeg",
+          "/images/vj school/2.jpeg",
+          "/images/vj school/3.jpeg",
+          "/images/vj school/4.jpeg",
+          "/images/vj school/5.jpeg",
+          "/images/vj school/6.jpeg"
+        ]
+      }  
+    ]
+  }
+}
