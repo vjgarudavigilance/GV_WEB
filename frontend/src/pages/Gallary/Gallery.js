@@ -40,7 +40,7 @@ export default function Gallery() {
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
-        speed={1500} // Balanced speed
+        speed={2000} // Balanced speed
         loop={true}
         navigation={true}
         pagination={{ clickable: true }}
