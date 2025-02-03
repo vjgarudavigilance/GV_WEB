@@ -44,7 +44,7 @@ const Header = () => {
             ☰
           </div>
           <div className="logo-section right-logo">
-  <span className="logo-text">VJ Garuda Vigilance</span>
+  <span className="logo-text">VJ Garuda Vigilance   </span>
   <a href="/">
     <img src={gvlogo} alt="gvlogo" className="logo" />
   </a>
