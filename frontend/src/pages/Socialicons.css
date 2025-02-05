@@ -1,0 +1,30 @@
+/* SocialIcons.css */
+
+/* Fix the social media icons to the right side of the screen */
+.social-icons {
+    position: fixed; /* Make icons stay fixed while scrolling */
+    top: 60%; /* Move them a bit lower on the screen */
+    right: 10px; /* 10px from the right of the screen */
+    transform: translateY(-50%); /* Adjust for exact vertical center */
+    display: flex; /* Align icons vertically */
+    flex-direction: column; /* Stack the icons vertically */
+    gap: 30px; /* Increase space between the icons */
+    z-index: 100; /* Ensure icons stay above other content */
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon-img {
+    width: 30px; /* Set icon size */
+    height: 30px; /* Set icon size */
+    transition: transform 0.3s ease; /* Smooth transition for scale */
+  }
+  
+  .social-icon-img:hover {
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+  }
+  

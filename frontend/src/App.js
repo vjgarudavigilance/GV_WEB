@@ -10,7 +10,7 @@ import Achievements from './pages/Achievements/Achievements';
 import Teams from './pages/Team/Team';
 import Alumni from './pages/Alumni/Alumni';
 import About from './pages/About';
-
+import SocialIcons from './pages/Socialicons'; // Import the SocialIcons component
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +28,7 @@ function App() {
       ) : (
         <>
           <Header /> {/* Always present at the top */}
+          
           <main> {/* Main content appears below the header */}
             <Routes>
               <Route path="/" element={<Home />} />
@@ -39,7 +40,11 @@ function App() {
               <Route path="/about" element={<About />} />
             </Routes>
           </main>
+          
           <Footer /> {/* Footer will always appear at the bottom */}
+
+          {/* Render social media icons globally */}
+          <SocialIcons />
         </>
       )}
     </Router>
