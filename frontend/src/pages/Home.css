@@ -394,8 +394,8 @@ nav ul li a.active::after {
 }
 
 .social-icon-img {
-  width: 40px; /* Set icon size */
-  height: 40px; /* Set icon size */
+  width: 30px; /* Set icon size */
+  height: 30px; /* Set icon size */
   transition: transform 0.3s ease; /* Smooth transition for scale */
 }
 
