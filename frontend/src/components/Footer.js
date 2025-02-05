@@ -14,7 +14,7 @@ const Footer = () => {
           <p>Mobile: +91 80085 48481</p>
           <p>Email: GVCLUB@gmail.com</p>
         </div>
-        Vignana Jyothi Nagar,Pragathi Nagar, Nizampet(S.O, Hyderabad, Telangana 500090
+        Vignana Jyothi Nagar,Pragathi Nagar, Nizampet S.O, Hyderabad, Telangana 500090
         <div>
           <h3>USEFUL LINKS</h3>
           <ul>
@@ -32,13 +32,13 @@ const Footer = () => {
           COPYRIGHT ©VJ Garuda Vigilance VNRVJIET ALL RIGHTS RESERVED.
         </p>
         <div className="social-media-icons">
-          <a href="https://www.instagram.com/krithomedh_vnrvjiet?igsh=eXk3eWsyY3FzcDZn" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/vjgarudavigilance?igsh=MW9nd3hleTczY3h3YQ==" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="https://youtube.com/@krithomedhvnrvjiet?si=cGKOIYA3Rnn12uZc" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-youtube"></i>
+          <a href="https://www.linkedin.com/company/vj-garuda-vigilance/" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="mailto:krithomedh@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:vjgarudavigilance@gmail.com" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-google"></i>
           </a>
         </div>

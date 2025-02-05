@@ -1,9 +1,8 @@
 footer {
-  background-color: #1a1a35;
+  background-color: #1a1a35; /* Solid color without any transparency */
   color: #fff;
   padding: 20px 0;
 }
-
 footer h3 {
   margin-bottom: 15px;
 }

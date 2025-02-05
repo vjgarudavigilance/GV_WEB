@@ -2,15 +2,15 @@
 .news-ticker {
   display: flex;
   align-items: center;
-  width: 120vw; /* Adjusted to fit mobile view */
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  margin-top: 105px;
-  overflow: hidden;
-  position: relative;
-  bottom: 0;
-  left: 30px;
+  margin-top: 137px; /* Ensure no extra margin on top */
   padding: 5px 0;
+  overflow: hidden;
+  position: fixed; /* Fixed positioning to stick at the top */
+  top: 0;
+  left: 0;
   z-index: 1000;
 }
 
@@ -21,7 +21,7 @@
   margin-right: 25px;
   margin-left: 30px;
   border-radius: 5px;
-  font-size: 0.8rem; /* Adjusted for smaller screens */
+  font-size: 0.8rem;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
   flex-shrink: 0;
 }
@@ -37,7 +37,7 @@
 .ticker-content {
   display: inline-block;
   padding-left: 100%;
-  animation: tickerMove 20s linear infinite; /* Adjusted speed for better readability */
+  animation: tickerMove 20s linear infinite;
 }
 
 @keyframes tickerMove {
@@ -51,8 +51,8 @@
 
 .ticker-content p {
   display: inline-block;
-  font-size: 1rem; /* Adjusted for mobile screens */
-  margin: 0 30px; /* Reduced margin for better spacing */
+  font-size: 1rem;
+  margin: 0 30px;
   opacity: 0.9;
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
@@ -69,7 +69,7 @@
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 0.9rem; /* Adjusted button font size */
+  font-size: 0.9rem;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease-in-out;
 }
@@ -87,7 +87,6 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   .news-ticker {
-    margin-top: 80px;
     padding: 8px 0;
   }
 
@@ -95,7 +94,7 @@
     padding: 6px;
     margin-right: 10px;
     margin-left: 20px;
-    font-size: 0.9rem; /* Smaller font for tablets */
+    font-size: 0.9rem;
   }
 
   .ticker-content p {
@@ -111,7 +110,6 @@
 
 @media (max-width: 480px) {
   .news-ticker {
-    margin-top: 60px;
     padding: 5px 0;
   }
 
@@ -119,7 +117,7 @@
     padding: 4px;
     margin-right: 5px;
     margin-left: 10px;
-    font-size: 0.8rem; /* Smaller font for mobile screens */
+    font-size: 0.8rem;
   }
 
   .ticker-content p {
