@@ -367,3 +367,38 @@ nav ul li a.active::after {
     height: 40px;
   }
 }
+/* Home.css */
+
+/* Ensure that the body has relative positioning for positioning the icons */
+.body {
+  position: relative;
+}
+
+/* Positioning and styling the social media icons on the right side */
+.social-icons {
+  position: fixed; /* To position the icons at a fixed place */
+  top: 60%; /* Move them a bit lower on the screen */
+  right: 10px; /* 10px from the right of the screen */
+  transform: translateY(-50%); /* Adjust for exact vertical center */
+  display: flex; /* Align icons vertically */
+  flex-direction: column; /* Stack the icons vertically */
+  gap: 30px; /* Increase space between the icons */
+  z-index: 100; /* Ensure icons stay above other content */
+}
+
+/* Styling individual icon links */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-img {
+  width: 40px; /* Set icon size */
+  height: 40px; /* Set icon size */
+  transition: transform 0.3s ease; /* Smooth transition for scale */
+}
+
+.social-icon-img:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
