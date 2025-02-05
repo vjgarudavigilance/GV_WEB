@@ -14,7 +14,7 @@ import alumniVideo from './alumni.mp4'; // Import video for background
 const foundersData = [
   {
     name: "Mr. Mehernadh - Cyber Security Student - Batch(2020-2024)",
-    text: "Being a part of VJ Garuda Vigilance was an eye-opening experience. The club’s focus on cybersecurity research and development allowed me to dive into cutting-edge topics and contribute to innovative solutions. The opportunity to work on research projects and collaborate with industry experts was instrumental in my growth as a data security analyst. The club’s commitment to staying at the forefront of cybersecurity trends and technologies has had a lasting impact on my professional journey. I owe much of my current success to the foundation built during my time with the club.",
+    text: "Being involved with VJ Garuda Vigilance was a pivotal chapter in my career journey. The club's dedication to exploring the latest advancements in cybersecurity gave me the platform to learn, experiment, and grow in the field. Engaging in hands-on research and collaborating with professionals helped me develop a deeper understanding of data protection techniques and threat mitigation strategies. The experience not only enhanced my technical expertise but also instilled in me the importance of continuous learning in the fast-evolving cybersecurity landscape. The skills and knowledge I gained from my time with the club continue to guide my work today.",
     imageAlt: "Mr. Mehernadh",
     imageSrc: i1,
     alternate: true
