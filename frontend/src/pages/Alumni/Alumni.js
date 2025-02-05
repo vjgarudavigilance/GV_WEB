@@ -5,7 +5,7 @@ import i1 from './1.jpg';
 import i2 from './2.png';
 import i3 from './3.jpg';
 import i4 from "./4.jpg"
-import ab from './groupphoto.jpg';
+import ab from './2024.jpg';
 import g25 from './2025.jpg';
 import g26 from './2026.jpg';
 import g27 from './2027.jpg';
@@ -13,9 +13,9 @@ import alumniVideo from './alumni.mp4'; // Import video for background
 
 const foundersData = [
   {
-    name: "Mr. Meharnadh - Cyber Security Student - Batch(2020-2024)",
+    name: "Mr. Mehernadh - Cyber Security Student - Batch(2020-2024)",
     text: "Being a part of VJ Garuda Vigilance was an eye-opening experience. The club’s focus on cybersecurity research and development allowed me to dive into cutting-edge topics and contribute to innovative solutions. The opportunity to work on research projects and collaborate with industry experts was instrumental in my growth as a data security analyst. The club’s commitment to staying at the forefront of cybersecurity trends and technologies has had a lasting impact on my professional journey. I owe much of my current success to the foundation built during my time with the club.",
-    imageAlt: "Mr. Meharnadh",
+    imageAlt: "Mr. Mehernadh",
     imageSrc: i1,
     alternate: true
   },
