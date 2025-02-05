@@ -12,7 +12,10 @@ import galleryVideo from "./gallery2_bg.mp4";
 // Dynamically import all images from the current directory
 const importImages = () => {
   const images = require.context("./", false, /\.(jpg|jpeg|png)$/);
-  return images.keys().map(images);
+  return images
+    .keys()
+    .sort((a, b) => parseInt(a.match(/\d+/)) - parseInt(b.match(/\d+/))) // Ensure numerical order
+    .map(images);
 };
 
 const images = importImages();
@@ -36,11 +39,11 @@ export default function Gallery() {
           1024: { slidesPerView: 4, spaceBetween: 50 },
         }}
         autoplay={{
-          delay: 1500,
+          delay: 800,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
-        speed={2000} // Balanced speed
+        speed={1000} // Balanced speed
         loop={true}
         navigation={true}
         pagination={{ clickable: true }}
