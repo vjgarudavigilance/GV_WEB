@@ -1,18 +1,19 @@
-/* General Styles for News Ticker */
 .news-ticker {
   display: flex;
   align-items: center;
-  width: 100%;
+  margin-top: 105px;
+  width: 100vw; /* Full viewport width */
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  margin-top: 137px; /* Ensure no extra margin on top */
   padding: 5px 0;
   overflow: hidden;
-  position: fixed; /* Fixed positioning to stick at the top */
+  position: sticky;
   top: 0;
-  left: 0;
+  left: 0; /* Ensures no right gap */
   z-index: 1000;
 }
+
+
 
 .events-box {
   background-color: rgba(70, 161, 186, 0.8);
@@ -31,7 +32,9 @@
   align-items: center;
   white-space: nowrap;
   overflow: hidden;
+  width: 100%;
   flex-grow: 1;
+  justify-content: center;  /* Center text */
 }
 
 .ticker-content {
