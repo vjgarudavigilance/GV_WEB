@@ -6,30 +6,37 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
+        {/* Contact Section */}
         <div>
-          <h3>VJ GURADA VIGILANCE</h3>
+          <h3>VJ GARUDA VIGILANCE</h3>
           <p>CONTACT</p>
           <p>VNR VJIET, B-Block</p>
           <p>Pragathi Nagar, Nizampet, Hyderabad - 500090, Telangana, India</p>
           <p>Mobile: +91 80085 48481</p>
           <p>Email: GVCLUB@gmail.com</p>
         </div>
-        Vignana Jyothi Nagar,Pragathi Nagar, Nizampet S.O, Hyderabad, Telangana 500090
-        <div>
-          <h3>USEFUL LINKS</h3>
-          <ul>
-            {['About', 'Team'].map((link) => (
-              <li key={link}>{link}</li>
-            ))}
-          </ul>
+
+        {/* Address Section - Properly aligned */}
+        <div className="footer-address">
+          <p>Vignana Jyothi Nagar,</p>
+          <p>Pragathi Nagar,</p>
+          <p>Nizampet S.O, Hyderabad, Telangana 500090</p>
         </div>
 
-        
+        {/* Useful Links Section */}
+        <div className="footer-links">
+          <h3>USEFUL LINKS</h3>
+          <ul>
+            <li>About</li>
+            <li>Team</li>
+          </ul>
+        </div>
       </div>
 
+      {/* Footer Bottom */}
       <div className="footer-bottom">
         <p className="copyright">
-          COPYRIGHT ©VJ Garuda Vigilance VNRVJIET ALL RIGHTS RESERVED.
+          COPYRIGHT © VJ Garuda Vigilance VNRVJIET ALL RIGHTS RESERVED.
         </p>
         <div className="social-media-icons">
           <a href="https://www.instagram.com/vjgarudavigilance?igsh=MW9nd3hleTczY3h3YQ==" target="_blank" rel="noopener noreferrer">

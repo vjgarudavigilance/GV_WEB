@@ -18,7 +18,8 @@ import photo17 from './saisrinivas.jpg';
 import photo18 from './sushanth.jpg';
 import photo19 from './pratham.jpg';
 import photo20 from './haarika.jpg';
-import photo21 from './vallabha.jpg';
+import photo21 from './bharath.jpg';
+import photo22 from './ssushanth.jpg';
 import proImage from './pro.png';
 
 
@@ -75,6 +76,20 @@ const teamMembers = [
         linkedin: 'https://www.linkedin.com/in/sreshtachelumala16012004/',
     },
     {
+        id: 20,
+        name: 'Prathamesh',
+        photo: photo19,
+        designation: 'General Secretary',
+        linkedin: 'https://www.linkedin.com/in/sri-prathamesh-nagam-524799281/',
+    },
+    {
+        id: 22,
+        name: 'R. Bharath Chandra',
+        photo: photo21,
+        designation: 'Treasurer',
+        linkedin: 'https://www.linkedin.com/in/example7/',
+    },
+    {
         id: 8,
         name: 'P.Chakresh',
         photo: photo7,
@@ -103,6 +118,13 @@ const teamMembers = [
         linkedin: 'https://www.linkedin.com/in/tilak-vardhan-serimalle-3429b2298/',
     },
     {
+        id: 22,
+        name: 'S Sai Sushanth',
+        photo: photo22,
+        designation: 'Technical Head',
+        linkedin: 'https://www.linkedin.com/in/sadineni-sai-sushanth/',
+    },
+    {
         id: 12,
         name: 'P. Hemalatha',
         photo: photo11,
@@ -120,14 +142,14 @@ const teamMembers = [
         id: 14,
         name: 'R.Praneeth',
         photo: photo13,
-        designation: 'Logistics Head',
+        designation: 'Event Management Head',
         linkedin: 'https://www.linkedin.com/in/praneeth-ramisetti-354b1726a/',
     },
     {
         id: 15,
         name: 'G.Chandu ',
         photo: photo14,
-        designation: 'Logistics Head',
+        designation: 'Event Management Head',
         linkedin: 'https://www.linkedin.com/in/chandu-gadupudi-9878a3282/',
     },
     {
@@ -148,36 +170,22 @@ const teamMembers = [
         id: 18,
         name: 'C.Sai Srinivas',
         photo: photo17,
-        designation: 'Photography Lead',
+        designation: 'Digital Media Heads',
         linkedin: 'https://www.linkedin.com/in/challa-sai-srinivas-reddy-947925286/',
     },
     {
         id: 19,
         name: 'Ch.Sushanth',
         photo: photo18,
-        designation: 'Photography Lead',
+        designation: 'Digital Media Heads',
         linkedin: 'https://www.linkedin.com/in/chittem-sushanth-937824251/',
-    },
-    {
-        id: 20,
-        name: 'Prathamesh',
-        photo: photo19,
-        designation: 'Hosting',
-        linkedin: 'https://www.linkedin.com/in/sri-prathamesh-nagam-524799281/',
     },
     {
         id: 21,
         name: 'M.Haarika',
         photo: photo20,
-        designation: 'Classical Singing',
+        designation: 'Event Management Head',
         linkedin: 'https://www.linkedin.com/in/haarika-manchambhotla-a680a5265/',
-    },
-    {
-        id: 22,
-        name: 'Sai Vallabha',
-        photo: photo21,
-        designation: 'Classical Singing',
-        linkedin: 'https://www.linkedin.com/in/example7/',
     },
     // You can add more coordinators as needed
 ];
