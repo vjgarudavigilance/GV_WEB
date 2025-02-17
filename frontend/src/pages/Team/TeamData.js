@@ -139,6 +139,13 @@ const teamMembers = [
         linkedin: 'https://www.linkedin.com/in/vemula-yeshaswini-45b516274/',
     },
     {
+        id: 21,
+        name: 'M.Haarika',
+        photo: photo20,
+        designation: 'Event Management Head',
+        linkedin: 'https://www.linkedin.com/in/haarika-manchambhotla-a680a5265/',
+    },
+    {
         id: 14,
         name: 'R.Praneeth',
         photo: photo13,
@@ -180,13 +187,7 @@ const teamMembers = [
         designation: 'Digital Media Heads',
         linkedin: 'https://www.linkedin.com/in/chittem-sushanth-937824251/',
     },
-    {
-        id: 21,
-        name: 'M.Haarika',
-        photo: photo20,
-        designation: 'Event Management Head',
-        linkedin: 'https://www.linkedin.com/in/haarika-manchambhotla-a680a5265/',
-    },
+
     // You can add more coordinators as needed
 ];
 
