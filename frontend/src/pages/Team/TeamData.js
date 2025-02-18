@@ -83,13 +83,6 @@ const teamMembers = [
         linkedin: 'https://www.linkedin.com/in/sri-prathamesh-nagam-524799281/',
     },
     {
-        id: 22,
-        name: 'R. Bharath Chandra',
-        photo: photo21,
-        designation: 'Treasurer',
-        linkedin: 'https://www.linkedin.com/in/example7/',
-    },
-    {
         id: 8,
         name: 'P.Chakresh',
         photo: photo7,
@@ -123,6 +116,13 @@ const teamMembers = [
         photo: photo22,
         designation: 'Technical Head',
         linkedin: 'https://www.linkedin.com/in/sadineni-sai-sushanth/',
+    },
+    {
+        id: 22,
+        name: 'R. Bharath Chandra',
+        photo: photo21,
+        designation: 'Treasurer',
+        linkedin: 'https://www.linkedin.com/in/example7/',
     },
     {
         id: 12,
